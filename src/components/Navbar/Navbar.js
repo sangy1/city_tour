@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../logo.svg";
-import "./navbar.scss"
+import "./navbar.scss";
 
 export default function Navbar() {
     return (
@@ -8,17 +8,17 @@ export default function Navbar() {
             <img src={logo} alt="city tours company" />
             <ul className="nav-links">
                 <li>
-                    <a href="/" classname="nav-link">
+                    <a href="/" className="nav-link">
                         home
                     </a>
                 </li>
                 <li>
-                    <a href="/" classname="nav-link">
+                    <a href="/" className="nav-link">
                         about
                     </a>
                 </li>
                 <li>
-                    <a href="/" classname="nav-link active">
+                    <a href="/" className="nav-link active">
                         tours
                     </a>
                 </li>
